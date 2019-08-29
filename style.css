@@ -1,6 +1,7 @@
 img{
 width: 50%;
 height: 50%;
+  align: middle;
 }
 
 a:link, a:visited {
