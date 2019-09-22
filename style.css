@@ -30,7 +30,7 @@ height: 50%;
   text-align: center;
   
 }
-
+/* 
 a:link, a:visited {
   background-color: blue;
   color: white;
@@ -38,7 +38,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-}
+} */
 
 a:hover, a:active {
   background-color: black;
