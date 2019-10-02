@@ -22,6 +22,7 @@ function draw(){
   
   let x1 = map(mouseX, 0, width, 100, 75);
   let x2 = map(mouseX, 0, width, -17, 17, true);
+  let x3 = map(mouseX, 0, width, 425, 50);
   
       // face
   noStroke();
@@ -36,7 +37,7 @@ ellipse(400, 181, 343, 173);
   stroke('#333');
   strokeWeight(5);
   noFill();
-  arc(300, 420, 80, 80, PI+.9, -.9);
+  arc(300, x3, 80, 80, PI+.9, -.9);
   arc(500, 420, 80, 80, PI+.9, -.9);
   
     // eyes
