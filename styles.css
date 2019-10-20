@@ -21,7 +21,17 @@
 
     <ul class="menu">
       <a href="index.html">Home</a>
-      <a href="">Projects</a>
+      <div class="dropdown">
+    <button class="dropbtn">Projects 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+<!--       <a href="">Projects</a> -->
       <a href="#"></a>
       <a href="#">Works</a>
       <a href="#">Contact</a>
