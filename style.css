@@ -106,6 +106,7 @@ body{
 }
 
 .dropdown {
+  float: right;
   overflow: hidden;
 }
 
