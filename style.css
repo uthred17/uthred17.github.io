@@ -108,6 +108,7 @@ body{
 .dropdown {
  float: right;
   overflow: hidden;
+  position: fixed;
 }
 
 .dropdown .dropbtn {
