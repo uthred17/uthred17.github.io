@@ -9,9 +9,9 @@ var pics = []; //create the arrays as global empty arrays.
 //have useable stuff in ANY function.  Problem solved.
 
 function preload(){
-  joker = loadImage("images/joker.jpg");//load my images as variables
+  joker = loadImage("joker.jpg");//load my images as variables
   //so I can use them and put them in an array
-  smile = loadImage("images/jokerp.jpg");
+  smile = loadImage("jokerp.jpg");
   jokersLine = loadSound("serious.mp3");
   jokerLaugh = loadSound("laugh.mp3");
 
