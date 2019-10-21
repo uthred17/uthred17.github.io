@@ -12,8 +12,8 @@ function preload(){
   joker = loadImage("images/joker.jpg");//load my images as variables
   //so I can use them and put them in an array
   smile = loadImage("images/jokerp.jpg");
-  jokersLine = loadSound("sounds/serious.mp3");
-  jokerLaugh = loadSound("sounds/laugh.mp3");
+  jokersLine = loadSound("serious.mp3");
+  jokerLaugh = loadSound("laugh.mp3");
 
 }
 function setup() {
